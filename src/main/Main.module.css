@@ -1,0 +1,43 @@
+.mainBlock {
+    background-color: #77b0aa;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.description {
+    width: 400px;
+    /*border: 1px solid;*/
+    background-color: #a3eee6;
+}
+.surname {
+    color: #29a96a
+}
+
+.aboutMeFooterText {
+    font-family: 'OpenSans', sans-serif;
+    margin: 10px 0 23px;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 500;
+}
+
+.photo {
+    widht: 550px;
+    height: 600px;
+    background-color: #51a97b;
+}
+
+.mainBlock img {
+    width: 550px;
+    height: 600px;
+    border-radius: 10px;
+}
