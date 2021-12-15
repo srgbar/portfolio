@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background-color: #9acbd3;
+    background-color: lightgrey;
 }
 
 .skillsContainer {
