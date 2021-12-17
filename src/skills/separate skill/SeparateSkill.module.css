@@ -4,13 +4,14 @@
     align-items: center;
     text-align: center;
     width: 250px;
-    background-color: #adccad;
+    background-color: #ccf3cc;
+    padding: 20px;
 }
 
 .icon {
     height: 60px;
     width: 60px;
-    background-color: darkcyan;
+    background-color: #afefef;
 }
 
 .description {

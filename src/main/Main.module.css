@@ -1,6 +1,6 @@
 .mainBlock {
-    height: 100vh;
-    background-image: linear-gradient(to right, #f1d8f8, #4e29be);
+    min-height: 80vh;
+    background-image: linear-gradient(to right, #6336ee, #967aec 70%);
     font-size: 20px;
     color: white;
 }
@@ -45,28 +45,28 @@
     justify-content: space-between;
 }
 
-.whiteBlock {
-    height: 50vh;
-    background-color: white;
-}
+/*.whiteBlock {*/
+/*    min-height: 50vh;*/
+/*    background-color: white;*/
+/*}*/
 
-.infoDescription {
-    /*width: 1200px;*/
-    margin: 60px;
-}
+/*.infoDescription {*/
+/*    !*width: 1200px;*!*/
+/*    margin: 60px;*/
+/*}*/
 
-.downloadButton {
-    background-color: #6d56c1;
-    height: 20px;
-    border-radius: 25px;
-    font-size: 14px;
-    line-height: 20px;
-    text-transform: uppercase;
-    padding: 15px;
-    min-width: 170px;
-    text-align: center;
-    display: inline-block;
-    color: #fff!important;
-    font-weight: 600;
-    overflow: hidden;
-}
+/*.downloadButton {*/
+/*    background-color: #6d56c1;*/
+/*    height: 20px;*/
+/*    border-radius: 25px;*/
+/*    font-size: 14px;*/
+/*    line-height: 20px;*/
+/*    text-transform: uppercase;*/
+/*    padding: 15px;*/
+/*    min-width: 170px;*/
+/*    text-align: center;*/
+/*    display: inline-block;*/
+/*    color: #fff!important;*/
+/*    font-weight: 600;*/
+/*    overflow: hidden;*/
+/*}*/

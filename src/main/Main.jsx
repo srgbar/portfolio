@@ -1,10 +1,9 @@
 import React from "react";
 import s from "./Main.module.css";
 import styleContainer from "../common/styles/Container.module.css";
-import photo from "../images/photo.jpg"
+import photo from "../common/images/photo.jpg"
 import ReactTypingEffect from "react-typing-effect";
 import {FaGithub, FaLinkedin, FaTelegram, FaVk} from 'react-icons/fa';
-import iconDownload from "../images/img_download_icon.png"
 
 function Main() {
     return (
@@ -32,20 +31,6 @@ function Main() {
                             <a href="" target="_blank"><i><FaTelegram/></i></a>
                         </p>
                     </div>
-                </div>
-            </div>
-            <div className={s.whiteBlock}>
-                <div className={s.infoDescription}>
-                    <h1>Hi_</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aperiam consectetur
-                        distinctio dolorem dolores eaque exercitationem id minus quisquam quod.
-                        Autem blanditiis commodi delectus doloribus eum exercitationem iusto magni nemo,
-                        nesciunt nihil nobis, nostrum perferendis quis quo sapiente vel vero.
-                    </p>
-                    <a href="" className={s.downloadButton}>
-                        <img src={iconDownload} style={{width: 20}}/> Download CV
-                    </a>
                 </div>
             </div>
         </div>
