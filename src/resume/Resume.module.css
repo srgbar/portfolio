@@ -4,7 +4,9 @@
 }
 
 .infoDescription {
-    margin: 60px;
+    border-left: 2px solid #6d56c1;
+    padding: 25px;
+    margin-bottom: 50px;
 }
 
 .downloadButton {

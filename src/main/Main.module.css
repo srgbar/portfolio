@@ -1,6 +1,7 @@
 .mainBlock {
     min-height: 80vh;
-    background-image: linear-gradient(to right, #6336ee, #967aec 70%);
+    /*background-image: linear-gradient(to right, #6336ee, #967aec 70%);*/
+    background: linear-gradient(54deg,rgba(74,76,179,.95) 34%,hsla(0,34%,71%,.95));
     font-size: 20px;
     color: white;
 }
@@ -23,8 +24,9 @@
 }
 
 .personalInfo {
-    margin: 10px;
+
 }
+
 
 /*.photo {*/
 /*    widht: 315px;*/
