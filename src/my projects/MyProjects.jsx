@@ -3,8 +3,8 @@ import style from './MyProjects.module.css';
 import styleContainer from "../common/styles/Container.module.css";
 import Project from "./project/Project"
 import socnet from "../common/images/socNet.jpg"
-import todo from "../common/images/todo.png"
-import counter from "../common/images/counter.png"
+import todo from "../common/images/todo.jpg"
+import counter from "../common/images/counter.jpg"
 
 function MyProjects() {
     return (
@@ -21,7 +21,7 @@ function MyProjects() {
                              '                    Assumenda, deserunt ducimus eos est ex iste itaque minima, minus nam officia, quibusdam.'}
                     />
                     <Project title={'Social network'}
-                             technology={'React, Redux, TypeScript, Redux-Form, Redux-Thunk, React Hooks / Class Components, Axios, Browser-Router'}
+                             technology={'React, Redux, TypeScript, Formik, Redux-Thunk, React Hooks / Class Components, Axios, Browser-Router'}
                              linkGithub={''}
                              linkDemo={''}
                              img={socnet}

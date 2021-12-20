@@ -3,7 +3,7 @@ import s from "./Main.module.css";
 import styleContainer from "../common/styles/Container.module.css";
 import photo from "../common/images/photo.jpg"
 import ReactTypingEffect from "react-typing-effect";
-import {FaGit, FaGithub, FaGithubSquare, FaLinkedin, FaLinkedinIn, FaTelegram, FaTelegramPlane} from 'react-icons/fa';
+import {FaGithub, FaLinkedin, FaTelegramPlane} from 'react-icons/fa';
 
 function Main() {
     return (

@@ -1,0 +1,31 @@
+.mainBlock {
+
+    min-height: 80vh;
+    background-image: url("../common/images/img_contacts.jpg"), linear-gradient(54deg,rgba(74,76,179,.95) 34%,hsla(0,34%,71%,.95));
+    background-blend-mode: multiply;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+    font-size: 17px;
+}
+
+.contacts {
+    margin-top: 60px;
+}
+
+.link {
+    margin-top: 60px;
+}
+
+.footer {
+    color: #fff;
+    opacity: .4;
+    width: 100%;
+    text-align: center;
+    top: 60px;
+    position: relative;
+    margin-bottom: 30px;
+}
