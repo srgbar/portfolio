@@ -1,19 +1,19 @@
 import iconDownload from "../common/images/img_download_icon.png";
 import React from "react";
-import styleContainer from "../common/styles/Container.module.css";
-import style from "./Hi.module.css";
+import st from "../common/styles/Container.module.css";
+import s from "./Hi.module.css";
 
 function Hi() {
-    return <div className={` ${styleContainer.container} ${style.whiteBlock} `}>
-        <div className={style.infoDescription}>
-            <h1>Hi_</h1>
+    return <div className={` ${st.container} ${s.hiBlock} `}>
+        <h1 className={st.title}>Hi_</h1>
+        <div className={s.infoDescription}>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aperiam consectetur
-                distinctio dolorem dolores eaque exercitationem id minus quisquam quod.
-                Autem blanditiis commodi delectus doloribus eum exercitationem iusto magni nemo,
-                nesciunt nihil nobis, nostrum perferendis quis quo sapiente vel vero.
+                I am Junior Web developer able to build a Web presence from the ground up. Skilled at writing
+                well-designed, testable and efficient code using current best practices in Web development. Fast
+                learner, hard worker and team player who is proficient in an array of scripting languages and multimedia
+                Web tools.
             </p>
-            <a href="" className={style.downloadButton}>
+            <a href="" className={s.downloadButton}>
                 <img src={iconDownload} style={{width: 20}}/> Download CV
             </a>
         </div>

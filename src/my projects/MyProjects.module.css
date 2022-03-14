@@ -1,24 +1,14 @@
-.skillsBlock {
+.projectsContainer {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: white;
-}
-
-.skillsContainer {
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.title {
-    /*background-color: #cafcc5;*/
-}
-
-.skills {
+.projects {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
-    /*border: 3px solid;*/
     width: 100%;
 }

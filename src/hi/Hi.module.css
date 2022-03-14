@@ -1,24 +1,29 @@
-.whiteBlock {
-    min-height: 50vh;
-    background-color: white;
+.hiBlock {
+    min-height: 40vh;
+    /*background-color: #e0c0c0;*/
 }
 
 .infoDescription {
-    margin: 60px;
+    border-left: 2px solid #6d56c1;
+    padding-left: 25px;
+    margin-bottom: 50px;
+    width: 1300px;
+    /*background-color: chocolate;*/
 }
 
 .downloadButton {
     background-color: #6d56c1;
-    height: 20px;
+    height: 45px;
     border-radius: 25px;
     font-size: 14px;
     line-height: 20px;
     text-transform: uppercase;
     padding: 15px;
-    min-width: 170px;
+    width: 170px;
     text-align: center;
-    display: inline-block;
+    display: flex;
     color: #fff!important;
     font-weight: 600;
     overflow: hidden;
+    text-decoration: none;
 }

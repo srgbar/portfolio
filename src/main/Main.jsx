@@ -1,16 +1,19 @@
 import React from "react";
 import s from "./Main.module.css";
-import styleContainer from "../common/styles/Container.module.css";
-import photo from "../common/images/photo.jpg"
+import st from "../common/styles/Container.module.css";
+import photo from "../common/images/photo2.jpg"
 import ReactTypingEffect from "react-typing-effect";
-import {FaGithub, FaLinkedin, FaTelegramPlane} from 'react-icons/fa';
+import Nav from "../nav/Nav";
 
 function Main() {
     return (
         <div>
             <div className={s.mainBlock}>
-                <div className={styleContainer.container}>
-                    <div className={s.photo}>
+                <div className={s.header}>
+                    <Nav/>
+                </div>
+                <div className={st.container}>
+                    <div>
                         <img src={photo}/>
                     </div>
                     <div className={s.description}>
@@ -19,17 +22,6 @@ function Main() {
                         <ReactTypingEffect text={['Front-end developer who loves React and JS']}
                                            eraseSpeed={0} typingDelay={1000} speed={50}
                                            className={s.aboutMeFooterText}/>
-                        <dl className={s.personalInfo}>
-                            <p>AGE: <span>31</span></p>
-                            <p>Phone: <span>+7 (921) 555-09-03</span></p>
-                            <p>Email: <span>frontend@gmail.com</span></p>
-                            <p>Address: <span>Vologda Russia</span></p>
-                        </dl>
-                        <p className={s.linksMedia}>
-                            <a href="" target="_blank"><i><FaGithub color={"white"}/></i></a>
-                            <a href="" target="_blank"><i><FaLinkedin color={"white"}/></i></a>
-                            <a href="" target="_blank"><i><FaTelegramPlane color={"white"}/></i></a>
-                        </p>
                     </div>
                 </div>
             </div>

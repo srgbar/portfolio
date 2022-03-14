@@ -1,6 +1,5 @@
 .mainBlock {
-
-    min-height: 80vh;
+    min-height: 70vh;
     background-image: url("../common/images/img_contacts.jpg"), linear-gradient(54deg,rgba(74,76,179,.95) 34%,hsla(0,34%,71%,.95));
     background-blend-mode: multiply;
     height: 100%;
@@ -12,12 +11,32 @@
     font-size: 17px;
 }
 
+.contactsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .contacts {
-    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .link {
-    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.mainBlock a {
+    text-decoration: none;
+    color: white;
+}
+
+.blockConnect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .footer {
@@ -25,7 +44,4 @@
     opacity: .4;
     width: 100%;
     text-align: center;
-    top: 60px;
-    position: relative;
-    margin-bottom: 30px;
 }

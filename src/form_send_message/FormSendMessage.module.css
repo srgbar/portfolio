@@ -13,18 +13,21 @@
 .block {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    /*align-items: center;*/
 }
 
 .field {
-    /*width: 400px;*/
+    width: 280px;
     margin: 4px;
+    /*border: 3px solid lightseagreen;*/
 }
 
 .form[type="text"] {
     display: block;
-    width: 400px;
+    width: 280px;
     height: 30px;
-    padding: 6px 12px;
+    /*padding: 6px 12px;*/
     font-size: 14px;
     line-height: 1.42857143;
     color: #555;
@@ -36,7 +39,7 @@
 
 .formError[type="text"] {
     display: block;
-    width: 400px;
+    width: 280px;
     padding: 6px 12px;
     font-size: 14px;
     line-height: 1.42857143;
@@ -50,7 +53,7 @@
 .button {
     background-color: #6d56c1;
     height: 50px;
-    width: 400px;
+    width: 280px;
     border-radius: 25px;
     font-size: 14px;
     line-height: 20px;

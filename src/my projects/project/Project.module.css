@@ -3,25 +3,48 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 330px;
-    /*padding: 20px;*/
+    width: 350px;
     background-color: #edf1f6;
     border: 3px solid lightslategrey;
-
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .divImg {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 230px;
-    width: 330px;
+    /*height: 230px;*/
+    /*width: 330px;*/
     background-color: whitesmoke;
-    /*border: 3px solid #210434;*/
-    /*border-radius: 100%;*/
+    border-bottom: 3px solid lightslategrey;
+    padding: 5px;
 }
 
 .projectLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
     width: 330px;
     height: 230px;
+}
+
+.title {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.a {
+    font-size: 15px;
+    padding: 3px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: #edf1f6;
+    text-decoration: none;
+
+
+    display: inline-block;
+    font-weight: 800;
+    border: 2px solid black;
 }

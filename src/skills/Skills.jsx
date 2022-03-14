@@ -1,6 +1,6 @@
 import React from "react";
-import style from './Skills.module.css';
-import styleContainer from "../common/styles/Container.module.css";
+import s from './Skills.module.css';
+import st from "../common/styles/Container.module.css";
 import Skill from "./skill/Skill";
 import html from "../common/images/htmlLogo.svg"
 import css from "../common/images/cssLogo.svg"
@@ -16,22 +16,20 @@ import axios from "../common/images/axiosLogo.png"
 
 function Skills() {
     return (
-        <div className={style.skillsBlock}>
-            <div className={` ${styleContainer.container} ${style.skillsContainer} `}>
-                <h1 className={style.title}>My skills_</h1>
-                <div className={style.skills}>
-                    <Skill title={"HTML"} skillLogo={html}/>
-                    <Skill title={"CSS"} skillLogo={css}/>
-                    <Skill title={"JS"} skillLogo={js}/>
-                    <Skill title={"TS"} skillLogo={ts}/>
-                    <Skill title={"REACT"} skillLogo={react}/>
-                    <Skill title={"REDUX"} skillLogo={redux}/>
-                    <Skill title={"GIT"} skillLogo={git}/>
-                    <Skill title={"MATERIAL UI"} skillLogo={mui}/>
-                    <Skill title={"UNIT TEST"} skillLogo={unit}/>
-                    <Skill title={"STORYBOOK"} skillLogo={storybook}/>
-                    <Skill title={"AXIOS"} skillLogo={axios}/>
-                </div>
+        <div className={` ${st.container} ${s.skillsContainer} `}>
+            <h1 className={st.title}>My skills_</h1>
+            <div className={s.skills}>
+                <Skill title={"HTML"} skillLogo={html}/>
+                <Skill title={"CSS"} skillLogo={css}/>
+                <Skill title={"JS"} skillLogo={js}/>
+                <Skill title={"TS"} skillLogo={ts}/>
+                <Skill title={"REACT"} skillLogo={react}/>
+                <Skill title={"REDUX"} skillLogo={redux}/>
+                <Skill title={"GIT"} skillLogo={git}/>
+                <Skill title={"MATERIAL UI"} skillLogo={mui}/>
+                <Skill title={"UNIT TEST"} skillLogo={unit}/>
+                <Skill title={"STORYBOOK"} skillLogo={storybook}/>
+                <Skill title={"AXIOS"} skillLogo={axios}/>
             </div>
         </div>
     );

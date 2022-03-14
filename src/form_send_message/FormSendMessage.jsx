@@ -26,7 +26,7 @@ function FormSendMessage() {
                 onSubmit={submit}
             >
                 {({errors, touched}) => (
-                    <Form className={s.block}>
+                    <Form  className={s.block}>
                         <div className={s.field}>
                             <Field name="name" type="text" placeholder="Your name"
                                    className={s.form}

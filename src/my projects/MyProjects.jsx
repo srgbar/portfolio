@@ -1,42 +1,59 @@
 import React from "react";
-import style from './MyProjects.module.css';
-import styleContainer from "../common/styles/Container.module.css";
+import s from './MyProjects.module.css';
+import st from "../common/styles/Container.module.css";
 import Project from "./project/Project"
-import socnet from "../common/images/socNet.jpg"
+import socnet from "../common/images/socNet2.jpg"
 import todo from "../common/images/todo.jpg"
-import counter from "../common/images/counter.jpg"
+import counter from "../common/images/counter1.jpg"
+import {v1} from "uuid";
+
+const projectsSPA = [
+    {
+        id: v1(),
+        title: "Todolist",
+        linkGithub: "",
+        linkDemo: "",
+        img: {backgroundImage: `url(${todo})`},
+        technology: "React, Redux, TypeScript, Formik, Redux-Thunk, React Hooks, HOC, Axios, Browser-Router, StoryBook, Unit Tests"
+    }, {
+        id: v1(),
+        title: "Social network",
+        linkGithub: "https://github.com/srgbar/social-net",
+        linkDemo: "https://srgbar.github.io/social-net/#/social-net/profile",
+        img: {backgroundImage: `url(${socnet})`},
+        technology: "React, Redux, TypeScript, Formik, Redux-Thunk, React Hooks / Class Components, Axios, Browser-Router"
+    }, {
+        id: v1(),
+        title: "Counter",
+        linkGithub: "https://github.com/srgbar/counter",
+        linkDemo: "https://srgbar.github.io/counter/#/counterV1",
+        img: {backgroundImage: `url(${counter})`},
+        technology: "React, Redux, TypeScript, Local Storage"
+    }, {
+        id: v1(),
+        title: "Friday project",
+        linkGithub: "",
+        linkDemo: "",
+        img: {backgroundImage: `url(${""})`},
+        technology: "React, Redux, TypeScript, Local Storage"
+    },
+]
+
 
 function MyProjects() {
     return (
-        <div className={style.skillsBlock}>
-            <div className={` ${styleContainer.container} ${style.skillsContainer} `}>
-                <h1 className={style.title}>My projects_</h1>
-                <div className={style.skills}>
-                    <Project title={'TodoList'}
-                             technology={'React, Redux, TypeScript, Formik, Redux-Thunk, React Hooks, HOC, Axios, Browser-Router, StoryBook, Unit Tests'}
-                             linkGithub={''}
-                             linkDemo={''}
-                             img={todo}
-                             description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolor illo, nostrum numquam provident quo quod totam!\n' +
-                             '                    Assumenda, deserunt ducimus eos est ex iste itaque minima, minus nam officia, quibusdam.'}
-                    />
-                    <Project title={'Social network'}
-                             technology={'React, Redux, TypeScript, Formik, Redux-Thunk, React Hooks / Class Components, Axios, Browser-Router'}
-                             linkGithub={''}
-                             linkDemo={''}
-                             img={socnet}
-                             description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolor illo, nostrum numquam provident quo quod totam!\n' +
-                             '                    Assumenda, deserunt ducimus eos est ex iste itaque minima, minus nam officia, quibusdam.'}
-                    />
-                    <Project title={'Counter'}
-                             technology={'React, Redux, TypeScript, Local Storage '}
-                             linkGithub={''}
-                             linkDemo={''}
-                             img={counter}
-                             description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolor illo, nostrum numquam provident quo quod totam!\n' +
-                             '                    Assumenda, deserunt ducimus eos est ex iste itaque minima, minus nam officia, quibusdam.'}
-                    />
-                </div>
+        <div className={` ${st.container} ${s.projectsContainer} `}>
+            <h1 className={st.title}>My projects_</h1>
+            <div className={s.projects}>
+                {
+                    projectsSPA.map(el => <Project key={el.id}
+                                                   img={el.img}
+                                                   title={el.title}
+                                                   linkDemo={el.linkDemo}
+                                                   linkGithub={el.linkGithub}
+                                                   technology={el.technology}
+                    />)
+                }
             </div>
         </div>
     );

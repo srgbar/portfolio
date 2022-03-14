@@ -1,12 +1,12 @@
 .nav {
     display: flex;
-    justify-content: space-between;
-    /*border: 1px solid;*/
+    justify-content: space-around;
     width: 480px;
     margin: 20px;
 }
 
 .link {
     color: white;
-    font-size: 20px;
+    font-size: 24px;
+    text-decoration: none;
 }

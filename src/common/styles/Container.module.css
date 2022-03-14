@@ -3,8 +3,14 @@
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    /*border: 1px solid;*/
     height: 100%;
     width: 85%;
     margin: 0 auto;
+
+    /*border: 1px solid;*/
+    /*background-color: #dad77b;*/
+}
+
+.title {
+    /*background-color: #cafcc5;*/
 }
