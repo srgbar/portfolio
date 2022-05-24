@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.3da54a88.chunk.css",
-    "main.js": "/portfolio/static/js/main.8f48b05b.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.8f48b05b.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.11a7a778.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.11a7a778.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.163fa8c0.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.163fa8c0.js.map",
     "static/js/2.a7c0a4aa.chunk.js": "/portfolio/static/js/2.a7c0a4aa.chunk.js",
@@ -12,17 +12,18 @@
     "index.html": "/portfolio/index.html",
     "static/css/main.3da54a88.chunk.css.map": "/portfolio/static/css/main.3da54a88.chunk.css.map",
     "static/js/2.a7c0a4aa.chunk.js.LICENSE.txt": "/portfolio/static/js/2.a7c0a4aa.chunk.js.LICENSE.txt",
-    "static/media/counter1.e5aaeb90.jpg": "/portfolio/static/media/counter1.e5aaeb90.jpg",
+    "static/media/counter.5fabc5b0.jpg": "/portfolio/static/media/counter.5fabc5b0.jpg",
     "static/media/cssLogo.212d777a.svg": "/portfolio/static/media/cssLogo.212d777a.svg",
     "static/media/gitLogo.c60b7e5a.svg": "/portfolio/static/media/gitLogo.c60b7e5a.svg",
     "static/media/htmlLogo.02c11ebc.svg": "/portfolio/static/media/htmlLogo.02c11ebc.svg",
     "static/media/Main.module.css": "/portfolio/static/media/img_contacts.79e3fbcf.jpg",
     "static/media/jsLogo.ba40d6a9.svg": "/portfolio/static/media/jsLogo.ba40d6a9.svg",
+    "static/media/kino.c64b9a02.jpg": "/portfolio/static/media/kino.c64b9a02.jpg",
     "static/media/muiLogo.fd510ed8.svg": "/portfolio/static/media/muiLogo.fd510ed8.svg",
     "static/media/photo2.e4b506d3.jpg": "/portfolio/static/media/photo2.e4b506d3.jpg",
     "static/media/reactLogo.4704dc7c.svg": "/portfolio/static/media/reactLogo.4704dc7c.svg",
     "static/media/reduxLogo.546485b8.svg": "/portfolio/static/media/reduxLogo.546485b8.svg",
-    "static/media/socNet2.15d98e17.jpg": "/portfolio/static/media/socNet2.15d98e17.jpg",
+    "static/media/socNet.d17650d2.jpg": "/portfolio/static/media/socNet.d17650d2.jpg",
     "static/media/storybookLogo.c5da0e8c.svg": "/portfolio/static/media/storybookLogo.c5da0e8c.svg",
     "static/media/todo.091444df.jpg": "/portfolio/static/media/todo.091444df.jpg",
     "static/media/tsLogo.a6305a73.svg": "/portfolio/static/media/tsLogo.a6305a73.svg",
@@ -32,6 +33,6 @@
     "static/js/runtime-main.163fa8c0.js",
     "static/js/2.a7c0a4aa.chunk.js",
     "static/css/main.3da54a88.chunk.css",
-    "static/js/main.8f48b05b.chunk.js"
+    "static/js/main.11a7a778.chunk.js"
   ]
 }
