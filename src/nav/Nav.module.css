@@ -1,12 +1,14 @@
 .nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     width: 480px;
     margin: 20px;
 }
 
 .link {
     color: white;
-    font-size: 24px;
+    font-size: 20px;
     text-decoration: none;
+    margin-left: 12px;
 }

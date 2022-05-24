@@ -1,6 +1,5 @@
 .hiBlock {
     min-height: 40vh;
-    /*background-color: #e0c0c0;*/
 }
 
 .infoDescription {
@@ -8,7 +7,6 @@
     padding-left: 25px;
     margin-bottom: 50px;
     width: 1300px;
-    /*background-color: chocolate;*/
 }
 
 .downloadButton {

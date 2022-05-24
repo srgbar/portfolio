@@ -1,6 +1,6 @@
 .mainBlock {
     min-height: 70vh;
-    background-image: url("../common/images/img_contacts.jpg"), linear-gradient(54deg,rgba(74,76,179,.95) 34%,hsla(0,34%,71%,.95));
+    background-image: url("../common/images/img_contacts.jpg"), linear-gradient(54deg, rgba(74, 76, 179, .95) 34%, hsla(0, 34%, 71%, .95));
     background-blend-mode: multiply;
     height: 100%;
     background-repeat: no-repeat;
@@ -8,24 +8,26 @@
     background-size: cover;
     position: relative;
     color: #fff;
-    font-size: 17px;
+    font-size: 19px;
+}
+
+.titleContainer {
+    display: flex;
+    justify-content: center
 }
 
 .contactsContainer {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .contacts {
-    display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
 .link {
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-top: 40px;
 }
 
 .mainBlock a {
@@ -44,4 +46,5 @@
     opacity: .4;
     width: 100%;
     text-align: center;
+    height: 65px;
 }

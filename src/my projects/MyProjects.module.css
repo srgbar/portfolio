@@ -1,3 +1,7 @@
+.fon {
+    background-color: #f3f3f3;
+}
+
 .projectsContainer {
     display: flex;
     flex-direction: column;

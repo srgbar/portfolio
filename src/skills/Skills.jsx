@@ -19,12 +19,12 @@ function Skills() {
         <div className={` ${st.container} ${s.skillsContainer} `}>
             <h1 className={st.title}>My skills_</h1>
             <div className={s.skills}>
-                <Skill title={"HTML"} skillLogo={html}/>
-                <Skill title={"CSS"} skillLogo={css}/>
-                <Skill title={"JS"} skillLogo={js}/>
-                <Skill title={"TS"} skillLogo={ts}/>
                 <Skill title={"REACT"} skillLogo={react}/>
                 <Skill title={"REDUX"} skillLogo={redux}/>
+                <Skill title={"TS"} skillLogo={ts}/>
+                <Skill title={"JS"} skillLogo={js}/>
+                <Skill title={"HTML"} skillLogo={html}/>
+                <Skill title={"CSS"} skillLogo={css}/>
                 <Skill title={"GIT"} skillLogo={git}/>
                 <Skill title={"MATERIAL UI"} skillLogo={mui}/>
                 <Skill title={"UNIT TEST"} skillLogo={unit}/>

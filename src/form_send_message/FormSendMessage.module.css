@@ -65,6 +65,13 @@
     color: #fff!important;
     font-weight: 600;
     overflow: hidden;
+    margin-top: 10px;
+}
+
+.span {
+    display: flex;
+    justify-content: center;
+    height: 20px;
 }
 
 .spanError {

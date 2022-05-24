@@ -34,8 +34,12 @@
     color: #d3c460
 }
 
+.blockTyping {
+    height: 110px;
+}
+
 .aboutMeFooterText {
-    font-family: 'Yatra One', cursive;
+    font-family: Roboto Mono, monospace;
     margin: 5px 0 23px;
     font-size: 20px;
     line-height: 32px;

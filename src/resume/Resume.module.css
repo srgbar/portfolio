@@ -1,6 +1,9 @@
+.fon {
+    background-color: #f3f3f3;
+}
+
 .resumeBlock {
     min-height: 80vh;
-    /*background-color: #dae2f3;*/
 }
 
 .infoDescription {
@@ -8,5 +11,8 @@
     padding-left: 25px;
     margin-bottom: 50px;
     width: 1300px;
-    /*background-color: chocolate;*/
+}
+
+.infoDescription h2 {
+    color: #6d56c1;
 }

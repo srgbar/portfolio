@@ -2,17 +2,18 @@ import React from "react";
 import s from './MyProjects.module.css';
 import st from "../common/styles/Container.module.css";
 import Project from "./project/Project"
-import socnet from "../common/images/socNet2.jpg"
+import socnet from "../common/images/socNet.jpg"
 import todo from "../common/images/todo.jpg"
-import counter from "../common/images/counter1.jpg"
+import counter from "../common/images/counter.jpg"
+import kino from "../common/images/kino.jpg"
 import {v1} from "uuid";
 
 const projectsSPA = [
     {
         id: v1(),
         title: "Todolist",
-        linkGithub: "",
-        linkDemo: "",
+        linkGithub: "https://github.com/srgbar/todolist-2022",
+        linkDemo: "https://srgbar.github.io/todolist-2022/#/login",
         img: {backgroundImage: `url(${todo})`},
         technology: "React, Redux, TypeScript, Formik, Redux-Thunk, React Hooks, HOC, Axios, Browser-Router, StoryBook, Unit Tests"
     }, {
@@ -35,25 +36,34 @@ const projectsSPA = [
         linkGithub: "",
         linkDemo: "",
         img: {backgroundImage: `url(${""})`},
-        technology: "React, Redux, TypeScript, Local Storage"
+        technology: "React, Redux, TypeScript"
+    }, {
+        id: v1(),
+        title: "Kino poisk",
+        linkGithub: "https://github.com/srgbar/kinopoisk",
+        linkDemo: "https://srgbar.github.io/kinopoisk/",
+        img: {backgroundImage: `url(${kino})`},
+        technology: "React, Redux, TypeScript"
     },
 ]
 
 
 function MyProjects() {
     return (
-        <div className={` ${st.container} ${s.projectsContainer} `}>
-            <h1 className={st.title}>My projects_</h1>
-            <div className={s.projects}>
-                {
-                    projectsSPA.map(el => <Project key={el.id}
-                                                   img={el.img}
-                                                   title={el.title}
-                                                   linkDemo={el.linkDemo}
-                                                   linkGithub={el.linkGithub}
-                                                   technology={el.technology}
-                    />)
-                }
+        <div className={s.fon}>
+            <div className={` ${st.container} ${s.projectsContainer} `}>
+                <h1 className={st.title}>My projects_</h1>
+                <div className={s.projects}>
+                    {
+                        projectsSPA.map(el => <Project key={el.id}
+                                                       img={el.img}
+                                                       title={el.title}
+                                                       linkDemo={el.linkDemo}
+                                                       linkGithub={el.linkGithub}
+                                                       technology={el.technology}
+                        />)
+                    }
+                </div>
             </div>
         </div>
     );

@@ -7,11 +7,13 @@ import {FaGithub, FaLinkedin, FaTelegramPlane} from "react-icons/fa";
 function Contacts() {
     return (
         <div className={s.mainBlock}>
-            <div className={` ${st.container} ${s.contactsContainer} `}>
+            <div className={s.titleContainer}>
                 <h1 className={st.title}>Get in touch_</h1>
+            </div>
+            <div className={` ${st.container} ${s.contactsContainer} `}>
                 <div className={s.contacts}>
-                    <div className={s.link}>
-                        <p>Phone: <span>+7 (921) 555-09-03</span></p>
+                    <div>
+                        <p>Phone: <span>+7 (921) 575-09-03</span></p>
                         <p>Email: <span>frontend@gmail.com</span></p>
                         <p>Address: <span>Vologda Russia</span></p>
                     </div>

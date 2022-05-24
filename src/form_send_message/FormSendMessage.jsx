@@ -26,34 +26,40 @@ function FormSendMessage() {
                 onSubmit={submit}
             >
                 {({errors, touched}) => (
-                    <Form  className={s.block}>
+                    <Form className={s.block}>
                         <div className={s.field}>
                             <Field name="name" type="text" placeholder="Your name"
                                    className={s.form}
                             />
                         </div>
-                        <span className={errors.name && touched.name ? s.spanError : ""}>
+                        <div className={s.span}>
+                            <span className={errors.name && touched.name ? s.spanError : ""}>
                                 {errors.name && touched.name ?
                                     <div>{errors.name}</div> : null}
                             </span>
+                        </div>
                         <div className={s.field}>
                             <Field name="email" type="text" placeholder="Your e-mail"
                                    className={s.form}
                             />
                         </div>
-                        <span className={errors.email && touched.email ? s.spanError : ""}>
+                        <div className={s.span}>
+                            <span className={errors.email && touched.email ? s.spanError : ""}>
                                 {errors.email && touched.email
                                     ? <div>{errors.email}</div> : null}
                             </span>
+                        </div>
                         <div className={s.field}>
                             <Field name="message" type="text" placeholder="Type the message here"
                                    className={s.form}
                             />
                         </div>
-                        <span className={errors.message && touched.message ? s.spanError : ""}>
+                        <div className={s.span}>
+                            <span className={errors.message && touched.message ? s.spanError : ""}>
                                 {errors.message && touched.message
                                     ? <div>{errors.message}</div> : null}
                         </span>
+                        </div>
                         <div>
                             <button type="submit"
                                     className={s.button}
